@@ -64,7 +64,7 @@
 
 <div class="hero min-h-0 bg-gray-800 w-full lg:w-5/3">
   <div class="hero-content flex-col lg:flex-row">
-    <img src="https://img.freepik.com/premium-vector/knights-badge-logo-design_31492-57.jpg?w=2000" class="mw-25 h-20 rounded-full" />
+    <img src="https://auf.edu.ph/images/auf-logo.png" class="mw-25 h-20 rounded-full" />
     <div>
       <h1 class="text-3xl font-bold w-full text-center" style="color: white;"><u><strong>F.R.E.A</strong></u></h1>
       <p class="text-1sm font-italic" style="color: white;"><strong>Mathematical Recursion Education Platform</strong></p>
@@ -94,6 +94,6 @@
     on:submit|preventDefault={() => handleSubmit()}
   >
     <input type="text" class="input input-bordered w-full" bind:value={query} />
-    <button type="submit" class="btn btn-error">Send</button>
+    <button type="submit" class="btn btn-warning">Send</button>
   </form>
 
